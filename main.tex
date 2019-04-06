@@ -22,7 +22,7 @@
 \usepackage{url}
 \usepackage[hidelinks]{hyperref} % exibição de links
 
-\usepackage{hyphenat} % hífens
+\usepackage{hyphenat} % hífens; veja a última linha antes do início do documento, corrigir erros de hifenização lá!
 
 \usepackage{placeins} % controle de floats
 
@@ -43,34 +43,20 @@
 
 \usepackage{array} 
 \usepackage{mdwmath}
-\usepackage{mdwtab} % tabelas
+\usepackage{mdwtab} % tabelas com arrays
 
 \usepackage{eqparbox} % facilita a criação de grupos
 
 \usepackage{listings} % permite a escrita de códigos de programação
 
 \renewcommand\thesection{\arabic{section}} % substitui os números romanos das seções por algarismos arábicos
+% transforme a linha acima num comentário para usar os algarismo romanos nos índices!
 
 \usepackage[cmex10]{amsmath}
 \usepackage{amssymb}
 \usepackage{mathtools} % fórmulas e símbolos matemáticos
 
-\lstset{language=Matlab,%
-	%basicstyle=\color{red},
-	breaklines=true,%
-	morekeywords={matlab2tikz},
-	keywordstyle=\color{blue},%
-	morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
-	identifierstyle=\color{black},%
-	stringstyle=\color{mylilas},
-	commentstyle=\color{mygreen},%
-	showstringspaces=false,%without this there will be a symbol in the places where there is a space
-	numbers=left,%
-	numberstyle={\tiny \color{black}},% size of the numbers
-	numbersep=9pt, % this defines how far the numbers are from the text
-	emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
-	%emph=[2]{word1,word2}, emphstyle=[2]{style},
-} % define modelo de exibição da linguagem Matlab
+\hyphenation{matemá-tica} % corrigir erros de hifenização aqui!
 
 % Início do documento --------------------------------------------------
 \begin{document}

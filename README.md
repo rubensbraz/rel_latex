@@ -10,5 +10,3 @@ O código "main.tex" e a pasta "imagens" nada mais são que o zip "Rel 1" extra�
 ## Links Interessantes:
 * [Fazer Tabelas](https://www.tablesgenerator.com)
 * [Editor de Equações](https://www.codecogs.com/latex/eqneditor.php?lang=pt-br)
-
-Boas matérias, bom semestre!
